@@ -30,7 +30,7 @@ MODEL_NAME="openai/gpt-4.1-nano"
 Launch the full CareerMate UI:
 
 ```bash
-streamlit run v6_streamlit_agent.py
+streamlit run .\streamlit_UI_View.py
 ```
 
 Features include:
@@ -44,7 +44,7 @@ Features include:
 To test the agents via terminal:
 
 ```bash
-python careermate_core.py
+python .\CareerMate.py
 ```
 
 This will run sample queries through the full career assistant agent.
